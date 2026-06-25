@@ -1,0 +1,3 @@
+select p.nome_produto, m.nome_marca from produtos p
+inner join marcas m on p.marca_id = m.id
+where p.preco > 500
